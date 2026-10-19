@@ -1,0 +1,19 @@
+# Local tools and temporary artifacts
+.tools/
+tmp/
+.local-archive/
+node_modules/
+__pycache__/
+*.pyc
+*.pid
+
+# Editor, machine, and credential files
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+
+# Deliberately keep lib/**/*.dll and documentation evidence for this Windows lab.

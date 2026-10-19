@@ -1,0 +1,72 @@
+{
+  "reviewedAt": "2026-10-19T13:01:13.891Z",
+  "method": "Opened and visually inspected every original image; decoded all ten files with System.Drawing",
+  "files": [
+    {
+      "file": "01-version.png",
+      "purpose": "BSL version",
+      "status": "PASS",
+      "visible": "bonezegei -v from project root; Bonezegei Script Interpreter v1.3.3 and Windows platform"
+    },
+    {
+      "file": "02-installation.png",
+      "purpose": "Successful dependency installation",
+      "status": "PASS",
+      "visible": "bzg install from project root; Installed http for arch=x86; prompt returns",
+      "note": "Also shows prior stop-process confirmation and listener check; screenshot alone does not display a numeric exit code"
+    },
+    {
+      "file": "03-server-startup.png",
+      "purpose": "bzg run targeting port 8081",
+      "status": "PASS_WITH_CONTEXT",
+      "visible": "bzg run launches start: bonezegei app.bzg; Starting BSL LIVE // Developer Lounge: http://localhost:8081",
+      "note": "An earlier Failed to install http (code=4) is also visible. This is startup evidence, not successful-install evidence or bind proof by itself."
+    },
+    {
+      "file": "04a-client-a.jpg",
+      "purpose": "Browser client A",
+      "status": "PASS",
+      "visible": "User 2, own A message and incoming B reply from User 0; connected localhost:8081"
+    },
+    {
+      "file": "04b-client-b.jpg",
+      "purpose": "Browser client B and reciprocal messaging",
+      "status": "PASS",
+      "visible": "User 0, incoming A message from User 2 and own B reply; same conversation with opposite author labels"
+    },
+    {
+      "file": "05-custom-404.jpg",
+      "purpose": "Custom fallback appearance",
+      "status": "PASS",
+      "visible": "localhost:8081/unknown-route, themed 404 and return link",
+      "note": "Response status independently validated by live test"
+    },
+    {
+      "file": "06-server-logs.png",
+      "purpose": "WebSocket lifecycle terminal output",
+      "status": "PASS",
+      "visible": "Actual WebSocket connected events for IDs 0, 1, and 2; received messages from clients 0 and 1 including hello from client 0; WebSocket disconnected events for IDs 0, 1, and 2",
+      "note": "Updated original supplied by user, reopened and visually re-inspected after replacement. This capture now covers connection, message, and disconnection callbacks; startup/port evidence is in 03-server-startup.png."
+    },
+    {
+      "file": "08-connected-lounge.jpg",
+      "purpose": "Connected main interface",
+      "status": "PASS",
+      "visible": "CONNECTED, handshake/welcome, client ID 2, ws://localhost:8081"
+    },
+    {
+      "file": "proof1.png",
+      "purpose": "Supplemental prior client User 0",
+      "status": "PASS_SUPPLEMENTAL",
+      "visible": "BSL LIVE User 0 view with incoming User 1 and own messages"
+    },
+    {
+      "file": "proof2.png",
+      "purpose": "Supplemental prior client User 1",
+      "status": "PASS_SUPPLEMENTAL",
+      "visible": "Matching BSL LIVE User 1 view with opposite sender labels"
+    }
+  ],
+  "remainingScreenshotDetail": null,
+  "allRequiredScreenshotPurposesVerified": true
+}

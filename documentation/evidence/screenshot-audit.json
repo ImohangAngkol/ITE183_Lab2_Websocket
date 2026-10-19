@@ -1,0 +1,82 @@
+﻿[
+    {
+        "File":  "01-version.png",
+        "Width":  503,
+        "Height":  178,
+        "Bytes":  14170,
+        "SHA256":  "8209B5F4A566C15EC9E780FE955A64ED5FB2AADBD52AEA000C9D49B9B8AD6950",
+        "Readable":  true
+    },
+    {
+        "File":  "02-installation.png",
+        "Width":  995,
+        "Height":  135,
+        "Bytes":  20385,
+        "SHA256":  "62484E4FE1178EC05A1FEC8E97354FEFF18E46C6BBF58103255AFBB6B6F31773",
+        "Readable":  true
+    },
+    {
+        "File":  "03-server-startup.png",
+        "Width":  504,
+        "Height":  172,
+        "Bytes":  12988,
+        "SHA256":  "749DE7EDD8DFC18BC03467C0C2B57B4BF48EC0621E22FEADA575EA1DB80159EF",
+        "Readable":  true
+    },
+    {
+        "File":  "04a-client-a.jpg",
+        "Width":  1920,
+        "Height":  1032,
+        "Bytes":  126816,
+        "SHA256":  "45B03CDD446356C1C5788616907F6A73CE5B9A2B4A3D4C680FB7DFCB249464A0",
+        "Readable":  true
+    },
+    {
+        "File":  "04b-client-b.jpg",
+        "Width":  1920,
+        "Height":  1032,
+        "Bytes":  126071,
+        "SHA256":  "13852C3A4CF24F34AF8E4D77B56ADB9169B1F98AEB2B1F2DB50A6F42249B4228",
+        "Readable":  true
+    },
+    {
+        "File":  "05-custom-404.jpg",
+        "Width":  1920,
+        "Height":  1032,
+        "Bytes":  78859,
+        "SHA256":  "49CB02D3F2FA8CF1B6A963C1CF92D8D1095A4DD55ABA3A3BCCDDB514F59F228E",
+        "Readable":  true
+    },
+    {
+        "File":  "06-server-logs.png",
+        "Width":  1060,
+        "Height":  267,
+        "Bytes":  18230,
+        "SHA256":  "610311E035F9CA9327CE17008778F658F5AE2CBA6CCDA14D7BF925D39B3D9373",
+        "Readable":  true
+    },
+    {
+        "File":  "08-connected-lounge.jpg",
+        "Width":  1920,
+        "Height":  1032,
+        "Bytes":  117499,
+        "SHA256":  "4EDFBC61856B2BDE3C03AC97A9619510B9FC9C538409235DB410EC3DE2525F02",
+        "Readable":  true
+    },
+    {
+        "File":  "proof1.png",
+        "Width":  1848,
+        "Height":  899,
+        "Bytes":  70004,
+        "SHA256":  "FFEFA4059FBC6749C317B1007581973B2F907D9CD05F0E6337EE120B264CE152",
+        "Readable":  true
+    },
+    {
+        "File":  "proof2.png",
+        "Width":  1848,
+        "Height":  896,
+        "Bytes":  74580,
+        "SHA256":  "74641E47F2A3C5609E7B12B26461FC44B71C302174428F73B9402C81944013B1",
+        "Readable":  true
+    }
+]

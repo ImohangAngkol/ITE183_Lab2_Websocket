@@ -1,0 +1,4 @@
+node tests/client.cjs
+Connection lifecycle, disabled controls, empty-message rejection, sender identity, single echo, text safety, scrolling, drafts, and reconnect passed.
+
+Exit code: 0

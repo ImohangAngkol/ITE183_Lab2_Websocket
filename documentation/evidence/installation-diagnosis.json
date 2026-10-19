@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-19",
+  "packageManager": "1.0.2",
+  "interpreter": "1.3.3",
+  "dependency": "http: ^1.0.0",
+  "proxy": "WinHTTP direct access; no proxy server",
+  "code4": "install_package returns 4 when fopen(destination DLL, wb) fails",
+  "binaryEvidence": {
+    "openCall": "0x1400029e7",
+    "failureBranch": "0x1400029f7 -> 0x140002eb8",
+    "return4": "0x140002ec8"
+  },
+  "lockedFileProbe": "fs.openSync(lib/http/http.dll, r+) returned EBUSY while Lab 2 server was running; no bytes written",
+  "isolatedInstall": "bzg install succeeded in tmp/install-investigation with unchanged manifest",
+  "rootInstall": "bzg install succeeded after stopping only Lab 2 process 28840; see installation-server-stopped.txt",
+  "backup": ".tools/original-http-library/",
+  "originalDllSha256": "59568451d6c080a982767901da97d0ad5b6d79cd032f3c0f87be09451ada5961",
+  "installedDllSha256": "f589d7db9dad55255c8f694ff04b62a1e01754b60862b56799d2ceb39b05f1ca",
+  "metadataUnchanged": true,
+  "loaderUnchanged": true,
+  "serverRestarted": true,
+  "tests": "smoke-followup.txt and client-followup.txt exit 0",
+  "currentLabServerPid": 30108
+}

@@ -1,0 +1,13 @@
+{
+  "name": "bsl-live",
+  "version": "1.0.0",
+  "description": "BSL LIVE // Developer Lounge — a Bonezegei WebSocket chat laboratory",
+  "main": "app.bzg",
+  "scripts": {
+    "start": "bonezegei app.bzg"
+  },
+  "dependencies": {
+    "http": "^1.0.0"
+  },
+  "license": "MIT"
+}

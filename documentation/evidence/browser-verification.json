@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-19",
+  "browser": "Microsoft Edge on same Windows machine",
+  "windows": {
+    "A": 2757382,
+    "B": 12913092
+  },
+  "observedClientIds": {
+    "A": "2",
+    "B": "0"
+  },
+  "messages": [
+    "Window A: Hello from the Developer Lounge!",
+    "Window B: Reply received - broadcasting works both ways!"
+  ],
+  "result": "Both independent browser windows displayed both messages with correct incoming/outgoing labels",
+  "fallback": "Actual browser loaded /unknown-route and return link restored connected lounge",
+  "screenshots": [
+    {
+      "file": "documentation/screenshots/04a-client-a.jpg",
+      "bytes": 126816,
+      "sha256": "45b03cdd446356c1c5788616907f6a73ce5b9a2b4a3d4c680fb7dfcb249464a0"
+    },
+    {
+      "file": "documentation/screenshots/04b-client-b.jpg",
+      "bytes": 126071,
+      "sha256": "13852c3a4cf24f34af8e4d77b56adb9169b1f98aeb2b1f2db50a6f42249b4228"
+    },
+    {
+      "file": "documentation/screenshots/05-custom-404.jpg",
+      "bytes": 78859,
+      "sha256": "49cb02d3f2fa8cf1b6a963c1cf92d8d1095a4dd55aba3a3bccddb514f59f228e"
+    },
+    {
+      "file": "documentation/screenshots/08-connected-lounge.jpg",
+      "bytes": 117499,
+      "sha256": "4edfbc61856b2bde3c03ac97a9619510b9fc9c538409235db410ec3de2525f02"
+    }
+  ]
+}

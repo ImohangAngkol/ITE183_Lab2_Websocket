@@ -1,0 +1,6 @@
+bzg --version
+Bonezegei Package Installer: Version: 1.0.2
+Author: Jofel Batutay
+Build platform: Windows
+
+Exit code: 0

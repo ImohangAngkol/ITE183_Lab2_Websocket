@@ -1,0 +1,5 @@
+bzg install (Lab 2 server stopped; original library backed up)
+Reading dependencies from package.json...
+  Installed   'http' for arch=x86
+
+Exit code: 0

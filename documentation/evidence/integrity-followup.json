@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-10-19T12:02:07.999Z",
+  "applicationSourceUnchangedInFollowup": true,
+  "files": [
+    {
+      "file": "app.bzg",
+      "sha256": "351c6007cc9be11bdd307bbd9ccac86d868a7032a06f64eb21a8dbd64b5215cb"
+    },
+    {
+      "file": "public/index.html",
+      "sha256": "302a1fd6ea4d8898cd0b52570e988d1c1db5c7373c1faa7eb838951672d31568"
+    },
+    {
+      "file": "public/404.html",
+      "sha256": "6568eeb3c6d769806626f6f6e0327b739f007d2c59f5397b076896f8415c13cc"
+    },
+    {
+      "file": "package.json",
+      "sha256": "907b0ee0ee988b956035def6cdcd4b56bdc6ec70f4b83b9075d562a6041da3ef"
+    }
+  ],
+  "httpDll": {
+    "originalBackup": ".tools/original-http-library/http.dll",
+    "originalSha256": "59568451d6c080a982767901da97d0ad5b6d79cd032f3c0f87be09451ada5961",
+    "installedFile": "lib/http/http.dll",
+    "installedSha256": "f589d7db9dad55255c8f694ff04b62a1e01754b60862b56799d2ceb39b05f1ca"
+  },
+  "loaderUnchanged": true,
+  "metadataUnchanged": true
+}

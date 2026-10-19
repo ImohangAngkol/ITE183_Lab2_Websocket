@@ -1,0 +1,36 @@
+include("lib/http.bzg");
+
+var server = http(8081);
+
+// Static HTTP routes, using the same sendFile API as the reference project.
+server.get = function(path, data) {
+    // Consume the required callback parameter without logging request data.
+    data;
+    print("GET " + path);
+
+    if (path == "/") {
+        server.sendFile("public/index.html");
+    } else {
+        // sendFile returns 200; explicitly set 404 while keeping the themed file.
+        server.sendResponse(readFile("public/404.html"), "text/html", 404);
+    }
+};
+
+server.onConnect = function(clientId) {
+    print("WebSocket connected! Client ID: " + clientId);
+    server.send(clientId, "Welcome to BSL LIVE!");
+    // A second private notice lets the browser identify its own broadcasts.
+    server.send(clientId, "Your client ID: " + clientId);
+};
+
+server.onData = function(message, clientId) {
+    print("Received from Client " + clientId + ": " + message);
+    server.sendAll("User " + clientId + " says: " + message);
+};
+
+server.onDisconnect = function(clientId) {
+    print("WebSocket disconnected! Client ID: " + clientId);
+};
+
+print("Starting BSL LIVE // Developer Lounge: http://localhost:8081");
+server.run();

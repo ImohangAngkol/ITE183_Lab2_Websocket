@@ -1,0 +1,6 @@
+bzg install
+Reading dependencies from package.json...
+  Failed  to install 'http' (code=4)
+
+Exit code: 0
+Result: installation FAILED as reported by installer output, despite exit code 0.

@@ -1,0 +1,8 @@
+HTTP serving and custom error page passed (fallback status: 404).
+Verified HTTP 101 upgrade and Sec-WebSocket-Accept.
+Verified HTTP 101 upgrade and Sec-WebSocket-Accept.
+Distinct client IDs: 1, 2.
+Two unique clients, bidirectional broadcasts, sender echo, Unicode, and long frames passed.
+Verified HTTP 101 upgrade and Sec-WebSocket-Accept.
+Remaining client stays active after disconnect; a new client joins and receives broadcasts.
+Exit code: 0

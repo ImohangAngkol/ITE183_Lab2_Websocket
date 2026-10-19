@@ -1,0 +1,7 @@
+bonezegei -v
+Bonezegei Script Interpreter v1.3.3
+Author: Jofel A. Batutay (Bonezegei)
+Build Version: v1.3.3 (New Repo)
+Platform: Windows
+
+Exit code: 0

@@ -1,0 +1,38 @@
+{
+  "auditedAt": "2026-10-19T13:03:25.471Z",
+  "repositoryName": "ITE183_Lab2_Websocket",
+  "gitMetadataAtProjectRoot": false,
+  "requiredFiles": "PASS",
+  "manifest": "PASS",
+  "mitLicenses": "PASS",
+  "bslLanguageMapping": "PASS",
+  "applicationIntegrity": "PASS",
+  "installedHttpDllHash": "f589d7db9dad55255c8f694ff04b62a1e01754b60862b56799d2ceb39b05f1ca",
+  "originalBackupHash": "59568451d6c080a982767901da97d0ad5b6d79cd032f3c0f87be09451ada5961",
+  "ignoredLocalDirectories": [
+    ".local-archive/",
+    ".tools/",
+    "tmp/"
+  ],
+  "publicationFileCount": 61,
+  "secretScan": {
+    "scope": "All publication candidate files except decoded/visually inspected images; high-confidence credential patterns and filename checks",
+    "findings": [],
+    "limitation": "Pattern scanning is not proof that every conceivable secret is absent"
+  },
+  "brokenLocalLinks": [],
+  "requiredScreenshotsMissing": [],
+  "screenshotEvidence": {
+    "expected": 10,
+    "decoded": 10,
+    "visuallyReviewed": 10,
+    "allPurposesVerified": true,
+    "markdownEmbeds": {
+      "README.md": 10,
+      "documentation/LABORATORY_REPORT.md": 10
+    }
+  },
+  "serverRestartedDuringAudit": false,
+  "currentListenerPid": 34684,
+  "liveCheck": "final-audit-smoke.txt: exit 0"
+}

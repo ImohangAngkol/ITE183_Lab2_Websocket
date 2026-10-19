@@ -1,0 +1,20 @@
+Read-only inspection of installed bzg.exe v1.0.2
+SHA-256: b3a8d77f0ebc395b781adf82177895a34245fd2a413f68acaecc848c561115a0
+install_package: output-file fopen failure returns code 4
+
+1400029db: mov rcx, qword ptr [rsp + 0x48]
+1400029e0: lea rdx, [rip + 0x497a] ; b'wb'
+1400029e7: call 0x140005248 ; fopen
+1400029ec: mov r10, qword ptr [rsp + 0x50]
+1400029f1: test rax, rax
+1400029f4: mov r15, rax
+1400029f7: je 0x140002eb8
+140002eb8: mov rcx, rbp
+140002ebb: call 0x140005350 ; free
+140002ec0: mov rcx, rbx
+140002ec3: call 0x140005350 ; free
+140002ec8: mov eax, 4
+140002ecd: jmp 0x140002c3f
+
+The wb mode and output filename are constructed just before this call.
+The executable was not patched or replaced.

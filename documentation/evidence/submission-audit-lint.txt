@@ -1,0 +1,10 @@
+bzg-linter app.bzg
+app.bzg:3:24: info: function 'http(port)': http object [required params: 1, provided: 1]
+app.bzg:6:12: info: property/method 'server.get(path, data)': HTTP GET Callback [required params: 2]
+app.bzg:12:45: info: method 'server.sendFile(filename)': HTTP send file to Client [required params: 1, provided: 1]
+app.bzg:19:18: info: property/method 'server.onConnect(clientID/Index)': Websocket Client onConnect Callback [required params: 1]
+app.bzg:26:15: info: property/method 'server.onData(Data , clientID )': Websocket Client onData Callback [required params: 2]
+app.bzg:31:21: info: property/method 'server.onDisconnect(clientID )': Websocket Client onDisconnect Callback [required params: 1]
+app.bzg:36:13: info: method 'server.run()': Run Server on Infinite Loop [required params: 0, provided: 0]
+
+Exit code: 0

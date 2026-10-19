@@ -1,0 +1,21 @@
+Running 1 script(s) concurrently...
+[bzg run] Starting 'start': bonezegei app.bzg
+Starting BSL LIVE // Developer Lounge: http://localhost:8081
+HTTP server listening on port 8081 (High Concurrency Thread-Pool Active)
+WebSocket connected! Client ID: 0
+GET /
+GET /undefined-route
+WebSocket connected! Client ID: 1
+WebSocket connected! Client ID: 2
+Received from Client 1: Hello from window A
+Received from Client 2: Reply from window B
+Received from Client 1: Purple 🟣 orange 🟠 <script>alert('text only')</script>
+Received from Client 2: Long message: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Received from Client 1: Still connected after the other client left
+WebSocket disconnected! Client ID: 2
+WebSocket connected! Client ID: 2
+Received from Client 1: A new client can rejoin
+WebSocket disconnected! Client ID: 2
+WebSocket disconnected! Client ID: 1
+GET /
+GET /unknown-route
